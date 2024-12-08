@@ -1,0 +1,31 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: left;
+  word-break: break-all;
+}
+
+a.button {
+  text-decoration: none;
+  text-wrap: nowrap;
+  color: #234b8d;
+  padding: 10px;
+  align-items: center;
+}
+
+a.button:hover {
+  color: white;
+  background-color: #234b8d;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
